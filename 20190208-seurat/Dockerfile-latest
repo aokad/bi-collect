@@ -9,4 +9,3 @@ RUN apt-get -y update && \
     Rscript -e "install.packages('dplyr')"
 
 CMD ["/bin/bash"]
-```
